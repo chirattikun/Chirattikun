@@ -1,0 +1,1768 @@
+/* ========================================= */
+/* RESET */
+/* รีเซ็ตค่าเริ่มต้นของเว็บ */
+/* ========================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', Arial, sans-serif;
+}
+
+/* ========================================= */
+/* GLOBAL BACKGROUND */
+/* ========================================= */
+
+body {
+
+    font-family: "Poppins", sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #fbfbfb 0%,
+        #f7f6f5 100%
+    );
+
+    background-attachment: fixed;
+
+    color: #2F2F2F;
+
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+
+    /* ========================================= */
+    /* GLOBAL SECTION */
+    /* ========================================= */
+
+
+
+}
+
+/* ========================================= */
+/* GLOBAL SECTION */
+/* ========================================= */
+
+section {
+
+    position: relative;
+
+    padding: 100px 8%;
+
+    background: transparent;
+
+}
+
+/* ========================================= */
+/* GLOBAL TITLE */
+/* ========================================= */
+
+section h2 {
+
+    font-size: 40px;
+
+    font-weight: 700;
+
+    color: #1E293B;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+
+}
+
+section p {
+
+    color: #64748B;
+
+    line-height: 1.8;
+
+}
+/* ========================================= */
+/* HOME */
+/* หน้าแรก */
+/* ========================================= */
+
+#home{
+
+    height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:30px;
+
+    background:linear-gradient(135deg,#f7f6f6,#f9f9f9);
+
+}
+
+/* ========================================= */
+/* รูปโปรไฟล์ */
+/*
+เปลี่ยนขนาดตรงนี้
+
+width = ความกว้าง
+
+height = ความสูง
+
+border-radius = ทำให้เป็นวงกลม
+
+border = ขอบรูป
+*/
+/* ========================================= */
+
+.profile-image{
+
+    width:220px;
+
+    height:220px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:6px solid #2563EB;
+
+    margin-bottom:25px;
+
+}
+
+/* ========================================= */
+/* ชื่อ */
+/* ========================================= */
+
+#home h1{
+
+    font-size:55px;
+
+    margin-bottom:10px;
+
+}
+
+/* ========================================= */
+/* ตำแหน่ง */
+/* ========================================= */
+
+#home h2{
+
+    color:#2563EB;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+}
+
+/* ========================================= */
+/* คำอธิบาย */
+/* ========================================= */
+
+#home p{
+
+    width:700px;
+
+    max-width:90%;
+
+    line-height:1.8;
+
+    font-size:18px;
+
+}
+
+/* ========================================= */
+/* ABOUT */
+/* เกี่ยวกับตัวเอง */
+/* ========================================= */
+
+
+#about{
+
+    padding:100px 10%;
+
+    text-align:center;
+
+    background:#ffffff;
+
+}
+
+
+
+/* ========================================= */
+/* ABOUT TITLE */
+/* หัวข้อ About Me */
+/* ========================================= */
+
+
+#about h1{
+
+    font-size:45px;
+
+    color:#2563EB;
+
+    margin-bottom:50px;
+
+}
+
+
+
+/* ========================================= */
+/* ABOUT CARD */
+/* กล่องข้อมูลแต่ละส่วน */
+/* ========================================= */
+
+
+.about-card{
+
+    background:#f3f6fb;
+
+    padding:30px;
+
+    margin-bottom:25px;
+
+    border-radius:20px;
+
+    border:1px solid #ddd;
+
+    text-align:left;
+
+    transition:0.3s;
+
+}
+
+
+
+/* ========================================= */
+/* CARD HOVER */
+/* เอฟเฟกต์ตอนเอาเมาส์วาง */
+/* ========================================= */
+
+
+.about-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+/* ========================================= */
+/* CARD TITLE */
+/* หัวข้อในกล่อง */
+/* ========================================= */
+
+
+.about-card h2{
+
+    font-size:30px;
+
+    color:#2563EB;
+
+    margin-bottom:20px;
+
+}
+
+
+
+/* ========================================= */
+/* CARD TEXT */
+/* ข้อความในกล่อง */
+/* ========================================= */
+
+
+.about-card p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    margin-bottom:15px;
+
+    color:#555;
+
+}
+
+
+
+/* ========================================= */
+/* INTEREST LIST */
+/* รายการความสนใจ */
+/* ========================================= */
+
+
+.about-card ul{
+
+    padding-left:25px;
+
+}
+
+
+
+.about-card li{
+
+    font-size:18px;
+
+    margin-bottom:10px;
+
+    color:#555;
+
+}
+
+/* ========================================= */
+/* SKILLS */
+/* ทักษะและความสามารถ */
+/* ========================================= */
+
+
+#skills{
+
+    padding:100px 10%;
+
+    background:#f8fbff;
+
+    text-align:center;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* SKILLS TITLE */
+/* หัวข้อ Skills */
+/* ========================================= */
+
+
+#skills h1{
+
+    font-size:45px;
+
+    color:#2563EB;
+
+    margin-bottom:50px;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* SKILLS CONTAINER */
+/* จัดตำแหน่ง Card แบบ 2x2 */
+/* ========================================= */
+
+
+.skills-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* SKILL CARD */
+/* กล่องแต่ละหมวด */
+/* ========================================= */
+
+
+.skill-card{
+
+    background:#ffffff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    border:1px solid #ddd;
+
+    text-align:left;
+
+    transition:0.3s;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* CARD HOVER */
+/* เอฟเฟกต์เมื่อนำเมาส์ไปวาง */
+/* ========================================= */
+
+
+.skill-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+
+
+/* ========================================= */
+/* SKILL TITLE */
+/* หัวข้อหมวดหมู่ */
+/* ========================================= */
+
+
+.skill-card h2{
+
+    font-size:28px;
+
+    color:#2563EB;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* SKILL LIST */
+/* รายการ Skill */
+/* ========================================= */
+
+
+.skill-card ul{
+
+    padding-left:25px;
+
+}
+
+
+
+.skill-card li{
+
+    font-size:18px;
+
+    color:#555;
+
+    margin-bottom:12px;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* RESPONSIVE */
+/* รองรับมือถือ */
+/* ========================================= */
+
+
+@media(max-width:768px){
+
+
+    .skills-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+}
+
+/* ========================================= */
+/* PROJECTS */
+/* ส่วนแสดงผลงาน */
+/* ========================================= */
+
+
+#projects{
+
+
+    padding:100px 10%;
+
+
+    background:#ffffff;
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+
+
+/* ========================================= */
+/* PROJECT TITLE */
+/* หัวข้อ Projects */
+/* ========================================= */
+
+
+#projects h1{
+
+
+    font-size:45px;
+
+
+    color:#2563EB;
+
+
+    margin-bottom:50px;
+
+
+}
+
+
+
+
+
+
+/* ========================================= */
+/* PROJECT CONTAINER */
+/* จัด Project 3 ช่อง */
+/* ========================================= */
+
+
+.projects-container{
+
+
+    display:grid;
+
+
+    grid-template-columns:repeat(3,1fr);
+
+
+    gap:30px;
+
+
+}
+
+
+
+
+
+
+/* ========================================= */
+/* PROJECT CARD */
+/* กล่อง Project */
+/* ========================================= */
+
+
+.project-card{
+
+
+    background:#f8fbff;
+
+
+    padding:30px;
+
+
+    border-radius:20px;
+
+
+    border:1px solid #ddd;
+
+
+    text-align:left;
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+
+
+
+/* ========================================= */
+/* PROJECT HOVER */
+/* เอฟเฟกต์เมื่อนำเมาส์วาง */
+/* ========================================= */
+
+
+.project-card:hover{
+
+
+    transform:translateY(-8px);
+
+
+}
+
+
+
+
+
+
+/* ========================================= */
+/* VIDEO */
+/* วิดีโอ Demo */
+/* ========================================= */
+
+
+.project-card video{
+
+
+    width:100%;
+
+
+    height:220px;
+
+
+    object-fit:cover;
+
+
+    border-radius:15px;
+
+
+    margin-bottom:20px;
+
+
+}
+
+/* ========================================= */
+/* PROJECT IMAGE */
+/* รูป Preview ของ Project */
+/* ========================================= */
+
+
+.project-image{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+    margin-bottom:20px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+
+/* ========================================= */
+/* PROJECT IMAGE HOVER */
+/* เอฟเฟกต์เมื่อเอาเมาส์วาง */
+/* ========================================= */
+
+
+.project-image:hover{
+
+    transform:scale(1.03);
+
+}
+
+
+
+
+
+
+/* ========================================= */
+/* PROJECT NAME */
+/* ชื่อ Project */
+/* ========================================= */
+
+
+.project-card h2{
+
+
+    color:#2563EB;
+
+
+    font-size:26px;
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+
+
+
+/* ========================================= */
+/* DESCRIPTION */
+/* รายละเอียด Project */
+/* ========================================= */
+
+
+.project-card p{
+
+
+    color:#555;
+
+
+    line-height:1.8;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+
+
+/* ========================================= */
+/* TECH STACK */
+/* Technology ที่ใช้ */
+/* ========================================= */
+
+
+.project-card h3{
+
+
+    color:#2563EB;
+
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+
+.project-card li{
+
+
+    color:#555;
+
+
+    margin-bottom:8px;
+
+
+}
+
+
+
+
+
+
+/* ========================================= */
+/* RESPONSIVE */
+/* รองรับมือถือ */
+/* ========================================= */
+
+
+@media(max-width:768px){
+
+
+    .projects-container{
+
+
+        grid-template-columns:1fr;
+
+
+    }
+
+
+}
+
+
+/* ========================================= */
+/* ACTIVITIES */
+/* กิจกรรมที่เข้าร่วม */
+/* ========================================= */
+
+
+/* ========================================= */
+/* ACTIVITIES SECTION */
+/* ========================================= */
+
+
+#activities{
+
+    padding:100px 10%;
+
+    background:#f8fbff;
+
+    text-align:center;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* ACTIVITIES TITLE */
+/* ========================================= */
+
+
+#activities h1{
+
+    font-size:45px;
+
+    color:#2563EB;
+
+    margin-bottom:60px;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* ACTIVITY ITEM */
+/* กล่องกิจกรรม */
+/* ========================================= */
+
+
+.activity-item{
+
+
+    display:flex;
+
+
+    flex-direction:row;
+
+
+    align-items:center;
+
+
+    justify-content:center;
+
+
+    gap:60px;
+
+
+    width:90%;
+
+
+    margin:0 auto 50px auto;
+
+
+    background:white;
+
+
+    padding:40px;
+
+
+    border-radius:20px;
+
+
+    border:1px solid #ddd;
+
+
+    text-align:left;
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+
+
+
+/* ========================================= */
+/* ACTIVITY HOVER */
+/* ========================================= */
+
+
+.activity-item:hover{
+
+
+    transform:translateY(-8px);
+
+
+}
+
+
+
+
+
+
+
+/* ========================================= */
+/* ACTIVITY IMAGE */
+/* รูปกิจกรรม */
+/* ========================================= */
+
+
+.activity-item img{
+
+
+    width:300px;
+
+
+    height:220px;
+
+
+    object-fit:cover;
+
+
+    border-radius:15px;
+
+
+}
+
+
+
+
+
+
+
+/* ========================================= */
+/* ACTIVITY CONTENT */
+/* ข้อความกิจกรรม */
+/* ========================================= */
+
+
+.activity-content{
+
+
+    flex:1;
+
+
+    padding:10px 20px;
+
+
+}
+
+
+
+
+
+
+/* ========================================= */
+/* ACTIVITY TITLE */
+/* ========================================= */
+
+
+.activity-content h2{
+
+
+    color:#2563EB;
+
+
+    font-size:28px;
+
+
+    margin-bottom:25px;
+
+
+    line-height:1.5;
+
+
+}
+
+
+
+
+
+
+
+/* ========================================= */
+/* ACTIVITY DESCRIPTION */
+/* ========================================= */
+
+
+.activity-content p{
+
+
+    color:#555;
+
+
+    font-size:17px;
+
+
+    line-height:2;
+
+
+    max-width:650px;
+
+
+}
+
+
+
+
+
+
+
+/* ========================================= */
+/* RESPONSIVE */
+/* รองรับมือถือ */
+/* ========================================= */
+
+
+@media(max-width:768px){
+
+
+
+    .activity-item{
+
+
+        flex-direction:column;
+
+
+        width:100%;
+
+
+        text-align:center;
+
+
+    }
+
+
+
+
+
+    .activity-item img{
+
+
+        width:100%;
+
+
+        height:auto;
+
+
+    }
+
+
+
+}
+/* ========================================= */
+/* ========================================= */
+/* CERTIFICATES */
+/* เกียรติบัตร */
+/* ========================================= */
+
+#certificates{
+
+    padding:100px 10%;
+
+    background:#ffffff;
+
+    text-align:center;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* CERTIFICATES TITLE */
+/* ========================================= */
+
+#certificates h1{
+
+    font-size:45px;
+
+    color:#2563EB;
+
+    margin-bottom:50px;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* CERTIFICATE CONTAINER */
+/* ========================================= */
+
+.certificate-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* CERTIFICATE IMAGE */
+/* ========================================= */
+
+.certificate-container a{
+
+    display:block;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    transition:0.3s;
+
+}
+
+
+
+
+
+.certificate-container a:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+
+
+.certificate-container img{
+
+    width:100%;
+
+    height:230px;
+
+    object-fit:cover;
+
+    border:1px solid #ddd;
+
+    border-radius:15px;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* RESPONSIVE */
+/* รองรับมือถือ */
+/* ========================================= */
+
+@media(max-width:768px){
+
+    .certificate-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ========================================= */
+/* CONTACT */
+/* ช่องทางการติดต่อ */
+/* ========================================= */
+
+#contact{
+
+    padding:100px 10%;
+
+    background:#f8fbff;
+
+    text-align:center;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* CONTACT TITLE */
+/* ========================================= */
+
+#contact h1{
+
+    font-size:45px;
+
+    color:#2563EB;
+
+    margin-bottom:50px;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* CONTACT CONTAINER */
+/* ========================================= */
+
+.contact-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* CONTACT CARD */
+/* ========================================= */
+
+.contact-card{
+
+    background:#ffffff;
+
+    border:1px solid #ddd;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    transition:0.3s;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* CONTACT CARD HOVER */
+/* ========================================= */
+
+.contact-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+
+
+/* ========================================= */
+/* CONTACT TITLE */
+/* ========================================= */
+
+.contact-card h2{
+
+    color:#2563EB;
+
+    margin-bottom:15px;
+
+    font-size:24px;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* CONTACT LINK */
+/* ========================================= */
+
+.contact-card a{
+
+    color:#555;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    word-break:break-word;
+
+}
+
+
+
+
+
+.contact-card a:hover{
+
+    color:#2563EB;
+
+}
+
+
+
+
+
+/* ========================================= */
+/* RESPONSIVE */
+/* รองรับมือถือ */
+/* ========================================= */
+
+@media(max-width:768px){
+
+    .contact-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ========================================= */
+/* NAVIGATION BAR */
+/* ========================================= */
+
+/* แถบเมนูหลัก */
+.navbar {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    background: rgba(255, 255, 255, 0.82);
+
+    backdrop-filter: blur(18px);
+
+    -webkit-backdrop-filter: blur(18px);
+
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+
+    transition: all 0.3s ease;
+
+    z-index: 1000;
+
+}
+
+/* กล่องภายใน Navbar */
+.navbar-container {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 20px 40px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+/* โลโก้ */
+.logo {
+
+    font-size: 28px;
+
+    font-weight: 700;
+
+    color: #2196F3;
+
+    text-decoration: none;
+
+    letter-spacing: 1px;
+
+    transition: all 0.3s ease;
+
+}
+
+.logo:hover {
+
+    transform: scale(1.05);
+
+}
+
+/* เมนูหลัก */
+.nav-menu {
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 30px;
+
+}
+
+/* ลบระยะห่างของ ul */
+.nav-menu li {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+/* ลิงก์เมนู */
+.nav-menu a {
+
+    position: relative;
+
+    text-decoration: none;
+
+    color: #444444;
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+    transition: all 0.3s ease;
+
+}
+
+/* เมื่อเอาเมาส์ไปชี้ */
+.nav-menu a:hover {
+
+    color: #2196F3;
+
+    transform: translateY(-2px);
+
+}
+
+/* ========================================= */
+/* MENU HOVER ANIMATION */
+/* ========================================= */
+
+.nav-menu a::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+
+    bottom: -6px;
+
+    width: 0;
+
+    height: 2px;
+
+    background: #2196F3;
+
+    transition: all 0.3s ease;
+
+    transform: translateX(-50%);
+
+}
+
+.nav-menu a:hover::after {
+
+    width: 100%;
+
+}
+
+/* ปุ่ม Hamburger */
+.menu-toggle {
+
+    display: none;
+
+    flex-direction: column;
+
+    cursor: pointer;
+
+    gap: 6px;
+
+}
+
+/* เส้นของ Hamburger */
+.menu-toggle span {
+
+    width: 28px;
+
+    height: 3px;
+
+    background: #333333;
+
+    border-radius: 5px;
+
+}
+
+/* ========================================= */
+/* RESPONSIVE */
+/* ========================================= */
+
+@media (max-width: 768px) {
+
+    .nav-menu {
+
+        display: none;
+
+    }
+
+    .menu-toggle {
+
+        display: flex;
+
+    }
+
+}
+
+/* ========================================= */
+/* MOBILE RESPONSIVE */
+/* รองรับหน้าจอมือถือ */
+/* ========================================= */
+
+@media screen and (max-width:768px){
+
+    /* ---------- Global ---------- */
+
+    section{
+
+        padding:80px 20px;
+
+    }
+
+    /* ---------- Home ---------- */
+
+    #home{
+
+        height:auto;
+
+        min-height:100vh;
+
+        padding-top:120px;
+
+    }
+
+    .profile-image{
+
+        width:170px;
+
+        height:170px;
+
+    }
+
+    #home h1{
+
+        font-size:32px;
+
+        line-height:1.3;
+
+    }
+
+    #home h2{
+
+        font-size:22px;
+
+    }
+
+    #home p{
+
+        width:100%;
+
+        font-size:16px;
+
+    }
+
+    /* ---------- About ---------- */
+
+    #about h1{
+
+        font-size:34px;
+
+    }
+
+    .about-card{
+
+        padding:25px;
+
+    }
+
+    .about-card h2{
+
+        font-size:24px;
+
+    }
+
+    .about-card p,
+
+    .about-card li{
+
+        font-size:16px;
+
+    }
+
+    /* ---------- Skills ---------- */
+
+    #skills h1{
+
+        font-size:34px;
+
+    }
+
+    .skills-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .skill-card{
+
+        padding:25px;
+
+    }
+
+    .skill-card h2{
+
+        font-size:24px;
+
+    }
+
+    .skill-card li{
+
+        font-size:16px;
+
+    }
+
+    /* ---------- Projects ---------- */
+
+    #projects h1{
+
+        font-size:34px;
+
+    }
+
+    .projects-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .project-card{
+
+        padding:25px;
+
+    }
+
+    .project-card video{
+
+        height:200px;
+
+    }
+
+    /* ---------- Activities ---------- */
+
+    #activities h1{
+
+        font-size:34px;
+
+    }
+
+    .activity-item{
+
+        flex-direction:column;
+
+        padding:25px;
+
+        gap:25px;
+
+        text-align:center;
+
+    }
+
+    .activity-item img,
+
+    .activity-item video{
+
+        width:100%;
+
+        height:auto;
+
+    }
+
+    .activity-content{
+
+        padding:0;
+
+    }
+
+    .activity-content h2{
+
+        font-size:24px;
+
+    }
+
+    .activity-content p{
+
+        font-size:16px;
+
+    }
+
+    /* ---------- Certificates ---------- */
+
+    #certificates h1{
+
+        font-size:34px;
+
+    }
+
+    .certificate-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* ---------- Contact ---------- */
+
+    #contact h1{
+
+        font-size:34px;
+
+    }
+
+    .contact-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .contact-card{
+
+        padding:25px;
+
+    }
+
+    /* ---------- Navbar ---------- */
+
+    .navbar-container{
+
+        padding:18px 20px;
+
+    }
+
+    .nav-menu{
+
+        display:none;
+
+    }
+
+    .menu-toggle{
+
+        display:flex;
+
+    }
+
+}
